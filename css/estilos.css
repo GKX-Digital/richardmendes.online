@@ -30,6 +30,13 @@ body {
     margin-right: 10px;
 }
 
+/* Vídeo */
+
+.sombra {
+  box-shadow: 0 0 15px 0 #ffffff !important; /* Sombra do vídeo */
+  justify-content: center;
+}
+
 /* Contador */
 
 .pessoas {
