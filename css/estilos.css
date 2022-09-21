@@ -19,14 +19,14 @@ body {
     background-color: #27a41a;
     box-shadow: 0px 0px 35px 0px rgb(71 255 0 / 53%);
     color: #fff;
-    font-size: 0.8em;
+    font-size: 0.9em;
     padding: 15px 20px;
     text-align: center;
 }
 
 .btn i {
     color: #fff !important;
-    font-size: 0.8em !important;
+    font-size: 0.9em !important;
     margin-right: 10px;
 }
 
