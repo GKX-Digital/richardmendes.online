@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+body {
+    background-color: #000;
+    font-family: "Sora", Sans-serif;
+}
+
+/* Botões */
+
+.btn {
+    background-color: #27a41a;
+    box-shadow: 0px 0px 35px 0px rgb(71 255 0 / 53%);
+    color: #fff;
+    font-size: 0.75em;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.btn i {
+    color: #fff !important;
+    font-size: 0.75em !important;
+    margin-right: 10px;
+}
+
+/* Contador */
+
+.pessoas {
+    background-color: #229728;
+    color: #fff;
+    font-weight: 600;
+    padding: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.pessoas #contador {
+    background-color: #000;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+/* Vídeo */
+
+.video {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3em 1em;
+    position: relative;
+}
+
+.video .titulo {
+    z-index: 1;
+}
+
+.video .titulo p {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-shadow: -2px -1px 14px #04ff00;
+}
+
+.video .titulo p b {
+    color: #01DD2D;
+}
+
+.video .iframe, .video .delay {
+    z-index: 1;
+}
+
+.video .delay img {
+    margin-top: 1.5em;
+    width: 150px;
+}
+
+.video .fundo {
+    height: 100%;
+    position: absolute;
+}
+
+.video .fundo img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.video .cor {
+    background: linear-gradient(180deg, rgba(29,47,26,0.9) 0%, rgba(0,0,0,1) 70%);
+    height: 100%;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+}
+
+/* Depoimentos */
+
+.depoimentos {
+    color: #fff;
+    padding: 2em 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.depoimentos h3 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.depoimentos i {
+    color: #2CFF00FA;
+    font-size: 3em;
+    margin-top: 0.5em;
+}
+
+.depoimentos .imagens {
+    padding: 2em 0em;
+}
+
+.depoimentos .imagens img {
+    border: 2px solid #FFFFFFAD;
+    border-radius: 10px;
+}
+
+/* Você Receberá */
+
+.receber {
+    background-image: linear-gradient(180deg, #111111F7 32%, #18560D6B 100%);
+    padding: 2em 1em;
+    position: relative;
+}
+
+.receber .titulo {
+    padding: 0em 1em;
+}
+
+.receber .titulo span {
+    color: #FFFFFF3B;
+    display: block;
+    font-size: 0.8em;
+    line-height: 3em;
+    letter-spacing: 3.9px;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+}
+
+.receber .titulo h3 {
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.receber .titulo .imagem {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Passos */
+
+.passos {
+    padding: 1em;
+}
+
+.passos .passo {
+    border-bottom: 1px solid #FFFFFF24;
+    border-top: 1px solid #FFFFFF24;
+    padding: 2.5em 0em;
+}
+
+.passos .passo .col-3 h4 {
+    color: #fff;
+    float: right;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 3em;
+}
+
+.passos .passo .col-9 h2 {
+    color: #49FF2B;
+    font-size: 1.25em;
+    font-weight: 600;
+}
+
+.passos .passo .col-9 p {
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+/* Compra Segura */
+
+.compra-segura {
+    padding: 2em;
+}
+
+.compra-segura h3, .compra-segura p {
+    color: #fff;
+}
+
+.compra-segura h3 span {
+    font-weight: 300;
+}
+
+.compra-segura p {
+    color: #FFFFFFD4;
+    font-size: 0.75em;
+    margin-top: 2em;
+}
+
+.compra-segura img {
+    width: 115%;
+}
+
+/* Perguntas */
+
+.faq {
+    background-image: url(../imagens/dialog-1-300x300.webp);
+    background-repeat: no-repeat;
+    padding: 2em;
+}
+
+.faq .titulo h3 {
+    color: #54595F;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.faq .perguntas {
+    padding: 2em 0em;
+}
+
+.faq .accordion .card {
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+    border-radius: 10px !important;
+    margin-bottom: 1em;
+}
+
+.faq .card-header {
+    background-color: #2BD70F;
+    color: #fff;
+    padding: 1.5em;
+}
+
+.faq .card-header.collapsed {
+    background-color: #242424;
+    color: #fff;
+    padding: 1.5em;
+}
+
+.faq .card-header h5 {
+    font-size: 0.85em;
+}
+
+.faq .card-body {
+    background-color: #2BD70F;
+    color: #fff;
+}
+
+/* Animações */
+
+.bounce-2 {
+    animation-name: bounce-2;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce-2 {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+}
+
+/* Rodapé */
+
+footer {
+    color: #fff;
+    padding: 2em;
+}
+
+footer h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+footer p {
+    color: #FFFFFF66;
+    font-size: 0.7em;
+    text-align: center;
+}
+
+footer p.copyright {
+    border-bottom: 1px solid #076200;
+    border-top: 1px solid #076200;
+    color: #076200;
+    font-size: 0.85em;
+    padding: 3px 0px;
+}
+
+footer .links {
+    background-color: #252525;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0.5em;
+}
+
+footer .links a {
+    color: #fff;
+    font-size: 0.7em;
+    margin: 0px 10px ;
+    text-transform: uppercase;
+}
